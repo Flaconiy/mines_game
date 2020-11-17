@@ -1,4 +1,4 @@
-﻿import qbs
+import qbs
 
 Project {
     minimumQbsVersion: "1.7.1"
@@ -11,6 +11,10 @@ Project {
         property path graph_lib_dir: "../_lib/Graph_lib"
 
         files: [
+            "config.h",
+            "field.cpp",
+            "field.h",
+            "sidebar.cpp",
             "sidebar.h",
             graph_lib_dir +"/Graph.cpp",
             graph_lib_dir +"/GUI.cpp",
